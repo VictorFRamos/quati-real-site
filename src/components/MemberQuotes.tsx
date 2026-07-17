@@ -4,7 +4,7 @@ import { MemberQuote } from '../types';
 
 export default function MemberQuotes() {
   return (
-    <section id="depoimentos" className="py-24 bg-stone-100 vintage-grain border-t border-stone-200">
+    <section id="depoimentos" className="py-24 vintage-paper border-t border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

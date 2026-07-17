@@ -27,6 +27,7 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
     { id: 'eventos', label: 'Eventos' },
     { id: 'galeria', label: 'Galeria' },
     { id: 'depoimentos', label: 'Membros' },
+    { id: 'instagram', label: 'Instagram' },
     { id: 'contato', label: 'Participar' },
   ];
 

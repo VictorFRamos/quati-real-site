@@ -18,7 +18,7 @@ export default function Events() {
   };
 
   return (
-    <section id="eventos" className="py-24 bg-stone-50 vintage-grain border-t border-stone-200">
+    <section id="eventos" className="py-24 vintage-paper border-t border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Heading */}
@@ -48,8 +48,8 @@ export default function Events() {
               onClick={() => setActiveFilter(city)}
               className={`px-4 py-1.5 rounded-full font-mono text-xs font-semibold tracking-wider uppercase border transition-all duration-300 focus:outline-none cursor-pointer ${
                 activeFilter === city
-                  ? 'bg-[#3f4e3c] text-white border-[#3f4e3c] shadow-sm'
-                  : 'bg-white text-neutral-600 border-stone-200 hover:text-[#3f4e3c] hover:border-[#3f4e3c]'
+                  ? 'bg-olive-800 text-white border-olive-800 shadow-sm'
+                  : 'bg-white text-neutral-600 border-stone-200 hover:text-olive-800 hover:border-olive-800'
               }`}
             >
               {city === 'all' ? 'Ver Todos' : city}
@@ -92,17 +92,17 @@ export default function Events() {
                   {/* Time/Place/Calendar Stamps */}
                   <div className="space-y-3.5 pt-1.5 border-t border-stone-100 mb-6">
                     <div className="flex items-center text-neutral-700 text-xs sm:text-sm font-light">
-                      <Calendar className="text-[#3f4e3c] mr-3 shrink-0" size={16} />
+                      <Calendar className="text-olive-800 mr-3 shrink-0" size={16} />
                       <span>{event.date}</span>
                     </div>
                     
                     <div className="flex items-center text-neutral-700 text-xs sm:text-sm font-light">
-                      <Clock className="text-[#3f4e3c] mr-3 shrink-0" size={16} />
+                      <Clock className="text-olive-800 mr-3 shrink-0" size={16} />
                       <span>{event.time}</span>
                     </div>
 
                     <div className="flex items-start text-neutral-700 text-xs sm:text-sm font-light">
-                      <MapPin className="text-[#3f4e3c] mr-3 mt-0.5 shrink-0" size={16} />
+                      <MapPin className="text-olive-800 mr-3 mt-0.5 shrink-0" size={16} />
                       <span>{event.location}</span>
                     </div>
                   </div>
@@ -139,7 +139,7 @@ export default function Events() {
         </div>
 
         {/* Suggest an event banner */}
-        <div className="mt-16 bg-[#3f4e3c] text-stone-100 rounded-lg p-6 sm:p-10 shadow-lg border border-[#2d382c] relative overflow-hidden flex flex-col md:flex-row items-center justify-between">
+        <div className="mt-16 bg-olive-800 text-stone-100 rounded-lg p-6 sm:p-10 shadow-lg border border-olive-900 relative overflow-hidden flex flex-col md:flex-row items-center justify-between">
           {/* Subtle tire track overlay on background */}
           <div className="absolute inset-0 opacity-[0.03] bg-cover bg-center pointer-events-none" />
           

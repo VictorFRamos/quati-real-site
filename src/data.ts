@@ -1,4 +1,4 @@
-import { ClubEvent, GalleryItem, RuleItem, MemberQuote } from './types';
+import { ClubEvent, GalleryItem, RuleItem, MemberQuote, InstagramPost } from './types';
 
 export const CLUB_LOGO = '/src/assets/images/quati_real_club_badge_1784322932739.jpg';
 export const HERO_IMAGE = '/src/assets/images/classic_car_hero_1784322945056.jpg';
@@ -144,5 +144,98 @@ export const MEMBER_QUOTES: MemberQuote[] = [
     name: 'Marcia Silva',
     car: 'Dona de uma Kombi Luxo 1975',
     quote: 'As regras de respeito e a proibição de assuntos chatos no grupo do WhatsApp garantem que o papo seja leve, produtivo e 100% focado no que a gente ama: carros antigos e amizade!'
+  }
+];
+
+export const INSTAGRAM_POSTS: InstagramPost[] = [
+  {
+    id: 'i1',
+    imageUrl: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=600&auto=format&fit=crop',
+    caption: 'A beleza de um clássico que atravessa gerações. Nosso encontro mensal em Porto Real reúne joias como esse belo Fusca. Quem aí também ama uma raridade impecável? 🚙✨ #QuatiReal #Fusca #CarrosAntigos #PortoReal #Antigomobilismo #Clássicos',
+    likes: 184,
+    comments: 24,
+    date: '10 de Julho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i2',
+    imageUrl: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=600&auto=format&fit=crop',
+    caption: 'Ronco forte e alma esportiva. O Opala tem um lugar muito especial no coração dos antigomobilistas brasileiros! Qual o seu modelo favorito do Opala? Deixe nos comentários! 👇🔥 #Opala #OpalaSS #QuatiReal #CarrosAntigos #Chevrolet #V8 #6Cilindros',
+    likes: 215,
+    comments: 38,
+    date: '08 de Julho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i3',
+    imageUrl: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=600&auto=format&fit=crop',
+    caption: 'Detalhes cromados que contam histórias. Cada painel, cada botão é uma verdadeira obra de arte mecânica dos anos dourados. 📸🛠️ #VintageStyle #Raridades #Instrumentos #QuatiReal #PortoReal #Quatis',
+    likes: 142,
+    comments: 11,
+    date: '05 de Julho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i4',
+    imageUrl: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=600&auto=format&fit=crop',
+    caption: 'Comboio de clássicos pegando a estrada sentido Quatis. Sentir o vento no rosto e ouvir o motor de época na estrada é a nossa terapia de fim de semana! 🛣️🚙💨 #Comboio #Passeio #QuatiReal #Quatis #PortoReal #PéNaEstrada',
+    likes: 198,
+    comments: 29,
+    date: '02 de Julho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i5',
+    imageUrl: 'https://images.unsplash.com/photo-1527244583103-68f44ff535c5?q=80&w=600&auto=format&fit=crop',
+    caption: 'Aquela Kombi Corujinha de respeito para colorir o nosso dia. Espaço de sobra para levar toda a família e muitas histórias para contar! 🚌❤️ #Kombi #KombiCorujinha #Volks #QuatiReal #GrupoDeCarrosAntigos',
+    likes: 256,
+    comments: 41,
+    date: '28 de Junho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i6',
+    imageUrl: 'https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=600&auto=format&fit=crop',
+    caption: 'O charme das curvas clássicas sob o pôr do sol do interior. O antigomobilismo preserva não apenas máquinas, mas a própria memória cultural! 🌅✨ #Antigomobilismo #Cultura #QuatiReal #InteriorRJ #MaquinasDoTempo',
+    likes: 172,
+    comments: 15,
+    date: '25 de Junho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i7',
+    imageUrl: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=600&auto=format&fit=crop',
+    caption: 'Volante cálice e a sensação indescritível de pilotar uma lenda nacional. Quem tem um antigo sabe: cada quilômetro é uma viagem no tempo! 🕰️🚗 #ViagemNoTempo #VolanteCalice #Restauracao #PortoReal #QuatiReal',
+    likes: 164,
+    comments: 19,
+    date: '20 de Junho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i8',
+    imageUrl: 'https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?q=80&w=600&auto=format&fit=crop',
+    caption: 'Dica de manutenção da semana: a importância de manter a carburação regulada para aquela marcha lenta redondinha. Quem mais passa o sábado regulando o brinquedo na garagem? 🔧🛠️ #MecanicaClassica #Garagem #Carburador #Dicas #QuatiReal',
+    likes: 135,
+    comments: 9,
+    date: '17 de Junho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i9',
+    imageUrl: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=600&auto=format&fit=crop',
+    caption: 'Praça cheia, cafezinho quente e muitas histórias pra contar. Nosso último encontro mensal em Quatis foi inesquecível! Agradecemos a presença de cada membro e visitante! 🙏☕ #EncontroDeCarros #QuatiReal #Quatis #Amigos',
+    likes: 204,
+    comments: 27,
+    date: '14 de Junho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
+  },
+  {
+    id: 'i10',
+    imageUrl: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=600&auto=format&fit=crop',
+    caption: 'Chave na ignição e partida para mais uma semana vitoriosa. Que o ronco dos motores clássicos nos guie em grandes caminhos! Um abraço de toda a diretoria QuatiReal! 🔑🚙🍀 #SegundaFeira #Partida #QuatiReal #GrupoCarrosAntigos',
+    likes: 148,
+    comments: 12,
+    date: '10 de Junho, 2026',
+    link: 'https://www.instagram.com/quatireal_carrosantigos/'
   }
 ];

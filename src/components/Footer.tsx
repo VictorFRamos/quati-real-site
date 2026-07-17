@@ -52,7 +52,7 @@ export default function Footer({ onNavClick }: FooterProps) {
             {/* Social handles */}
             <div className="flex items-center space-x-4 pt-2">
               <a
-                href="https://instagram.com/quatireal"
+                href="https://www.instagram.com/quatireal_carrosantigos/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 rounded text-neutral-400 hover:text-white transition-colors"

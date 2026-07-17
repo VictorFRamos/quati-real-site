@@ -88,12 +88,12 @@ export default function Contact() {
                     <div>
                       <h4 className="font-serif text-sm font-semibold text-white">Nosso Instagram</h4>
                       <a
-                        href="https://instagram.com/quatireal"
+                        href="https://www.instagram.com/quatireal_carrosantigos/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-leather-300 hover:text-white text-xs sm:text-sm mt-0.5 inline-block transition-colors"
                       >
-                        @quatireal
+                        @quatireal_carrosantigos
                       </a>
                     </div>
                   </div>

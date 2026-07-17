@@ -6,6 +6,7 @@ import Rules from './components/Rules';
 import Events from './components/Events';
 import Gallery from './components/Gallery';
 import MemberQuotes from './components/MemberQuotes';
+import InstagramFeed from './components/InstagramFeed';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -24,7 +25,7 @@ export default function App() {
   // Scroll spy to update active nav item as user scrolls
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['inicio', 'sobre', 'regras', 'eventos', 'galeria', 'depoimentos', 'contato'];
+      const sections = ['inicio', 'sobre', 'regras', 'eventos', 'galeria', 'depoimentos', 'instagram', 'contato'];
       const scrollPosition = window.scrollY + 250; // trigger early for better feeling
 
       for (const section of sections) {
@@ -67,6 +68,9 @@ export default function App() {
 
       {/* Emotional Member Testimonials */}
       <MemberQuotes />
+
+      {/* Official Instagram Live feed block */}
+      <InstagramFeed />
 
       {/* Double Contact option & Form */}
       <Contact />

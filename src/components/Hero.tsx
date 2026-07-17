@@ -88,7 +88,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
           </a>
           
           <a
-            href="https://instagram.com/quatireal" // Placeholder/fictional based on prompt bio
+            href="https://www.instagram.com/quatireal_carrosantigos/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 bg-neutral-900/80 hover:bg-neutral-800/95 text-neutral-200 hover:text-white border border-neutral-700/60 hover:border-neutral-500 font-mono text-xs font-extrabold uppercase tracking-widest py-4 px-8 rounded transition-all duration-300"

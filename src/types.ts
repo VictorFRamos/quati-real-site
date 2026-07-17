@@ -33,3 +33,13 @@ export interface MemberQuote {
   car: string;
   quote: string;
 }
+
+export interface InstagramPost {
+  id: string;
+  imageUrl: string;
+  caption: string;
+  likes: number;
+  comments: number;
+  date: string;
+  link: string;
+}

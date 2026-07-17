@@ -6,27 +6,37 @@
   --font-serif: "DM Serif Display", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   
-  --color-olive-50: #f4f6f3;
-  --color-olive-100: #e8ece7;
-  --color-olive-200: #d1dacd;
-  --color-olive-600: #4a5c48;
-  --color-olive-700: #3b4a39;
-  --color-olive-800: #2d382c;
-  --color-olive-900: #1f271e;
+  --color-olive-50: #f0f7fa;
+  --color-olive-100: #dcecf2;
+  --color-olive-200: #b9d9e6;
+  --color-olive-600: #084d6a;
+  --color-olive-700: #053b53;
+  --color-olive-800: #042d3e;
+  --color-olive-900: #021a24;
   
-  --color-leather-50: #fbf9f6;
-  --color-leather-100: #f6eedf;
+  --color-leather-50: #fffefb;
+  --color-leather-100: #fbf6ec;
   --color-leather-200: #eadcb9;
-  --color-leather-600: #8c5a3c;
-  --color-leather-700: #70472f;
-  --color-leather-800: #543523;
-  --color-leather-900: #382317;
+  --color-leather-600: #935a29;
+  --color-leather-700: #794820;
+  --color-leather-800: #5f3718;
+  --color-leather-900: #44260f;
+
+  --color-amber-50: #fdfcf5;
+  --color-amber-100: #fcf4da;
+  --color-amber-200: #fae4ad;
+  --color-amber-500: #f2a32c;
+  --color-amber-600: #d6861e;
+
+  --color-neutral-950: #011118;
+  --color-neutral-900: #021a25;
+  --color-neutral-800: #052938;
 }
 
 /* Custom vintage paper visual style */
 .vintage-paper {
-  background-color: #f7f4eb;
-  background-image: radial-gradient(#d6ceb8 0.5px, transparent 0.5px), radial-gradient(#d6ceb8 0.5px, #f7f4eb 0.5px);
+  background-color: #f5eedc;
+  background-image: radial-gradient(#d5c5a8 0.5px, transparent 0.5px), radial-gradient(#d5c5a8 0.5px, #f5eedc 0.5px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
 }
