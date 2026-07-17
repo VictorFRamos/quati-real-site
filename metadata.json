@@ -1,0 +1,6 @@
+{
+  "name": "QuatiReal - Grupo de Carros Antigos",
+  "description": "Site institucional do QuatiReal, grupo de entusiastas de carros antigos das cidades de Quatis e Porto Real (RJ). Criado em Março de 2025.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
