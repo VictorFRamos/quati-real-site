@@ -1,6 +1,6 @@
 import { ClubEvent, GalleryItem, RuleItem, MemberQuote, InstagramPost } from './types';
 
-export const CLUB_LOGO = '/src/assets/images/quati_real_club_badge_1784322932739.jpg';
+export const CLUB_LOGO = '/src/assets/images/Carro.png';
 export const HERO_IMAGE = '/src/assets/images/classic_car_hero_1784322945056.jpg';
 
 export const EVENTS: ClubEvent[] = [

@@ -81,7 +81,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
             href="https://wa.me/5524999999999?text=Ol%C3%A1%21+Gostaria+de+participar+do+QuatiReal%21"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-500 to-leather-500 hover:from-amber-400 hover:to-leather-400 text-neutral-950 font-mono text-xs font-extrabold uppercase tracking-widest py-4 px-8 rounded shadow-lg hover:shadow-amber-500/10 hover:-translate-y-0.5 transition-all duration-300"
+            className="w-full sm:w-auto inline-flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-500 to-amber-500 hover:from-amber-400 hover:to-amber-400 text-neutral-950 font-mono text-xs font-extrabold uppercase tracking-widest py-4 px-8 rounded shadow-lg hover:shadow-amber-500/10 hover:-translate-y-0.5 transition-all duration-300"
           >
             <MessageSquare size={16} />
             <span>Entrar no WhatsApp</span>
@@ -137,7 +137,7 @@ export default function Hero({ onExploreClick }: HeroProps) {
         </motion.div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden md:block">
+        <div className="absolute left-1/2 -translate-x-1/2 hidden md:block" style={{ bottom: '-7rem' }}>
           <button
             onClick={() => onExploreClick('sobre')}
             className="flex flex-col items-center text-neutral-500 hover:text-neutral-300 transition-colors focus:outline-none"

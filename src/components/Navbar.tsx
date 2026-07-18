@@ -94,7 +94,7 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
               href="https://wa.me/5524999999999?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+o+grupo+de+carros+antigos+QuatiReal."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-600 to-leather-600 hover:from-amber-500 hover:to-leather-500 text-neutral-950 font-mono text-xs font-bold uppercase tracking-wider py-2.5 px-4 rounded shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-600 to-amber-600 hover:from-amber-500 hover:to-amber-500 text-neutral-950 font-mono text-xs font-bold uppercase tracking-wider py-2.5 px-4 rounded shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
             >
               <MessageSquare size={14} className="text-neutral-950" />
               <span>Entrar no Grupo</span>
@@ -143,7 +143,7 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
                   href="https://wa.me/5524999999999?text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+o+grupo+de+carros+antigos+QuatiReal."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center space-x-2 bg-gradient-to-r from-amber-600 to-leather-600 text-neutral-950 font-mono text-xs font-bold uppercase tracking-wider py-3 px-4 rounded w-full shadow"
+                  className="flex items-center justify-center space-x-2 bg-gradient-to-r from-amber-600 to-amber-600 text-neutral-950 font-mono text-xs font-bold uppercase tracking-wider py-3 px-4 rounded w-full shadow"
                 >
                   <MessageSquare size={16} />
                   <span>Entrar no WhatsApp</span>

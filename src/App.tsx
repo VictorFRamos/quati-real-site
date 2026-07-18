@@ -70,7 +70,7 @@ export default function App() {
       <MemberQuotes />
 
       {/* Official Instagram Live feed block */}
-      <InstagramFeed />
+      {/* <InstagramFeed /> */}
 
       {/* Double Contact option & Form */}
       <Contact />

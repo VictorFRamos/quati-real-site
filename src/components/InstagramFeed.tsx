@@ -53,7 +53,7 @@ export default function InstagramFeed() {
               href="https://www.instagram.com/quatireal_carrosantigos/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center space-x-2.5 px-6 py-3 bg-gradient-to-tr from-amber-500 via-red-500 to-purple-600 hover:opacity-95 text-white font-mono text-xs font-bold uppercase tracking-wider rounded-lg shadow transition-all duration-300 w-full sm:w-auto"
+              className="flex items-center justify-center space-x-2.5 px-6 py-3 bg-gradient-to-tr from-amber-500 via-red-500 to-amber-500 hover:opacity-95 text-white font-mono text-xs font-bold uppercase tracking-wider rounded-lg shadow transition-all duration-300 w-full sm:w-auto"
             >
               <Instagram size={16} />
               <span>Seguir no Instagram</span>

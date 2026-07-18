@@ -116,7 +116,7 @@ export default function Contact() {
                   href="https://wa.me/5524999999999?text=Ol%C3%A1%21+Gostaria+de+participar+do+grupo+de+WhatsApp+QuatiReal%21"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-500 to-leather-500 hover:from-amber-400 hover:to-leather-400 text-neutral-950 font-mono text-xs font-extrabold uppercase tracking-widest py-4 px-6 rounded shadow-lg transition-all duration-300 w-full hover:-translate-y-0.5"
+                  className="flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-500 to-amber-500 hover:from-amber-400 hover:to-amber-400 text-neutral-950 font-mono text-xs font-extrabold uppercase tracking-widest py-4 px-6 rounded shadow-lg transition-all duration-300 w-full hover:-translate-y-0.5"
                 >
                   <MessageSquare size={16} />
                   <span>Entrar no WhatsApp</span>
